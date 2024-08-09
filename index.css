@@ -1,0 +1,131 @@
+h1 {
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+title{
+	color: aquamarine;
+	text-transform: capitalize;
+	font-style: inherit;
+}
+#blue-bordered {
+    border: 5px dashed pink
+}
+/* Selecting multiple HTML element types */
+h1, p{
+	border: 5px solid pink
+}
+
+/* Selecting styles to be applied to several classes */
+.FirstItem, .LastItem {
+   font-size: 1.2em;
+}
+
+/* Using multiple Kinds of selectors */
+
+h3, .pink, #pinkElement {
+   color: pink
+}
+.box p {
+	color: rgb(123, 0, 255);
+}  
+article > p {
+    font-weight: bold;
+    background-color: #e3882d;
+    color: #ffffff;
+    padding: .5em;
+	h1 + p {      
+		font-weight: green;
+		background-color: #bd4242;
+		color: #360dda;
+		padding: .4em;
+		 }
+		 /* unvisited link */
+		 a:link {
+			color: rgb(105, 35, 23);
+		}
+  
+		/* visited link */
+		a:visited {
+			color: tomato;
+		}
+  
+		/* mouse over element */
+		h2 {
+			color: rgb(212, 30, 176);
+		} 
+  
+		/* selected link */
+		a:active{
+			color: #0000FF
+		}
+		h2{
+			color: aquamarine;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			text-align: center;
+		}
+		p{
+			padding-left:  60px;
+			padding-right: 50PX;
+			padding-bottom: 30%;
+			padding-top: 55px;
+		}
+		.box {
+			padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>
+		    }
+			div + p {
+				height: 5px;
+				width: 5%;
+			}
+			.box-1 {
+				border: none;
+			  }
+			  
+			  .box-2 {
+				border: 5px hidden red;
+			  }
+			  
+			  .box-3 {
+				border: 5px solid orange;
+			  }
+			  
+			  .box-4 {
+				border: 5px dashed orange;
+			  }
+			  
+			  .box-5 {
+				border: 5px dotted orange;
+			  }
+			  
+			  .box-6 {
+				border: 5px double orange;
+			  }
+			  
+			  .box-7 {
+				border: 5px groove orange;
+			  }
+			  
+			  .box-8 {
+				border: 5px ridge orange;
+			  }
+			  
+			  .box-9 {
+				border: 5px inset orange;
+			  }
+			  
+			  .box-10 {
+				border: 5px outset orange;
+			  }
+			  p {
+				border: 10px solid black;
+				margin: 20px;
+			  }
+		
+			  .rounded {
+				border-radius: 15px;
+			  }
+		
+			  .elliptical {
+				border-radius: 50px / 25px;
+			  }
+			  
